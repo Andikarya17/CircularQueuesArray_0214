@@ -52,7 +52,7 @@ public:
             cout << "Queue underflow\n";
             return;
         }
-        cout << "\nThe element delete from the queue is :" << queue_array[FRONT] << "\N";
+        cout << "\nThe element delete from the queue is :" << queue_array[FRONT] << "\n";
         // Cek jika antrian hanya memiliki Satu elemen
         if (FRONT == REAR)
         {
