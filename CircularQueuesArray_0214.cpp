@@ -60,3 +60,14 @@ public:
             FRONT = FRONT + 1
     }
 }
+
+void display() {
+
+    int FRONT_Position = FRONT;
+    INT REAR_Position = REAR;
+
+    //cek apakah
+}
+
+
+
