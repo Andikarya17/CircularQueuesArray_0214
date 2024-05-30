@@ -46,7 +46,7 @@ class Queues{
         queue_array[REAR] = num;
     }
 
-    void Remove()
+    void remove()
     {
         // cek apakah antrian kosong
         if (FRONT == -1)
@@ -149,5 +149,9 @@ int main() {
             }
             }
         }
+        catch (exception& e) {
+            cout << "check for the values entered." << endl;
+        }
    }
+   return 0;
 }
