@@ -64,10 +64,25 @@ public:
 void display() {
 
     int FRONT_Position = FRONT;
-    INT REAR_Position = REAR;
+    int REAR_Position = REAR;
 
-    //cek apakah
-}
+    //cek apakah antrian kosong
+     if (FRONT_Position == -1) {
+            cout << "Queue is empty\n";
+            return;
+    }
+    cout << "\nElement in the queue are..."
+
+        // Jika FRONT <= REAR, iterasi dari FRONT hingga REAR
+        if (FRONT_Position <= REAR_Position){
+            while (FRONT_Position <= REAR_Position){
+                cout << queue_array[FRONT_Position] << " ";
+            }
+            {
+                /* code */
+            }
+            
+        }
 
 
 
